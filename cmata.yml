@@ -21,23 +21,9 @@
         - dia
         - dterm
         - fluid
-        - google-chrome-canary
         - google-chrome
-        - handbrake
-        - hedgewars
-        - hex-fiend
         - hipchat
         - iterm2
-        - kismac
-        - macfusion
-        - mongohub
-        - mou
-        - openoffice
-        - rowanj-gitx
-        - slack
-        - seashore
-        - sequel-pro
-        - seil
         - shiftit
         - sourcetree
         - spotify
@@ -47,7 +33,6 @@
         - skype
         - unrarx
         - vlc
-        - wireshark
     - name: install cmata brew applications
       homebrew: name={{item}} state=latest
       with_items:
@@ -69,12 +54,7 @@
         - gnutls
         - gobject-introspection
         - graphviz
-        - harfbuzz
-        - htop-osx
-        - hub
-        - imagemagick
         - jmeter
-        - jpeg
         - libevent
         - libffi
         - libgpg-error
@@ -87,7 +67,6 @@
         - libyaml
         - lua
         - lzip
-        - mad
         - memcached
         - mercurial
         - mutt
